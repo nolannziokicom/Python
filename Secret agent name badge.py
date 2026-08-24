@@ -31,12 +31,3 @@ print(type(Speed_text))
 print(type(mission_count_text))
 print(type(active_status_text))
 print(type(height_text))
-
-
-
-''''
-) Convert values into text.
-   a) Use `str()` to convert numbers into strings.
-   b) Convert the Boolean value into text.
-   c) Print the converted values and their new data types.
-'''
