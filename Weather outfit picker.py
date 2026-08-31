@@ -36,18 +36,4 @@ else:
 print("")
 print("We have now finished the website")
 
-# Use the print() function to display a blank line.
-# Then display a message to let the user know that
-# the weather check is complete.
 
-
-# Use the print() function to display a weather
-# outfit summary.
-# Display:
-# - The temperature entered by the user.
-# - The outfit chosen.
-# - Whether it is raining.
-# - Whether a windbreaker is needed.
-# - The shoes chosen.
-# Add a heading and a closing line to make the summary
-# easy to read.
