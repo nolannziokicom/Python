@@ -10,3 +10,13 @@
 colors=["blue","yellow","red","green"]
 for i in colors:
     print(i)
+
+
+
+i=1
+total=0
+
+while i < 5:
+    total+=i
+    i=i+1
+    print("sum:",total)
