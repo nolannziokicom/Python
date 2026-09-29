@@ -20,3 +20,5 @@ while i < 5:
     total+=i
     i=i+1
     print("sum:",total)
+
+
