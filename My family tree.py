@@ -28,5 +28,3 @@ Kid.showtraits()
 Kid.favourite_hobby("Riding my bike")
 
 print("Is child a subclass of Familymember \n",issubclass(child,Familymember))
-
-
