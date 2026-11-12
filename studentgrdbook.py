@@ -17,12 +17,24 @@ grades={"name": "charles",
         }
 total=0
 for name in grades:
-    total=total+grades
+    total += grades
     avg=total/len(grades)
     print("Average is",avg)
 
 top_name=""
 top_score=0
+
+for name,grade in grades.items():
+    if grade[name] > top_score:
+        top_score=grade
+        top_name=name
+    
+    
+
+
+    print("Highest score is",top_score)
+    print("Highest scorer is",top_name)
+
 
 
 
