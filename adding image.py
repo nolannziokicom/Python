@@ -13,7 +13,7 @@ Defaultimagesize=(300,300)
 
 image=pygame.transform.scale(image,Defaultimagesize)
 
-defaultpos=(150,150)
+defpos=(150,150)
 
 while True:
     displaysurface.fill(darkblue)
