@@ -36,7 +36,7 @@ def main():
         if pressed[pygame.K_DOWN]: y +=2
 
         x=min(max(0,x),screen_width - sprite_width)
-        y=min(max(0,y),screen_height - screen_height)
+        y=min(max(0,y),screen_height - sprite_height)
 
         if x == 0: currentcolor == colors['purple']
         elif x ==screen_width- sprite_width: currentcolor = colors['green']
@@ -52,7 +52,7 @@ def main():
 
         pygame.draw.rect(screen,currentcolor,(x,y,sprite_width,sprite_height))
         pygame.display.flip()
-        clock.tick(40)
+        clock.tick(90)
 
 if __name__ == "__main__":
     main()
